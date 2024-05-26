@@ -1,9 +1,12 @@
 package com.cubix.login;
 
+import javax.ejb.Stateless;
+
 /**
- *
+ * DAO objektum szimulálása.
  * @author Papp József
  */
+@Stateless
 public class UserService {
     
         protected final String DEFAULT_HASH = "5be2bcf5718118eaeab4fe7ae57543262082a8fce89420a5fc4799d99af2f161";
