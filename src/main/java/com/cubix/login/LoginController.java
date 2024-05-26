@@ -38,12 +38,12 @@ public class LoginController implements Serializable {
         this.username = username;
     }
 
-    public String getPassword() {
+    public String getEnteredPassword() {
         return enteredPassword;
     }
 
-    public void setPassword(String password) {
-        this.enteredPassword = password;
+    public void setEnteredPassword(String enteredPassword) {
+        this.enteredPassword = enteredPassword;
     }
 
     public User getUser() {
