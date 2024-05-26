@@ -4,11 +4,16 @@ import java.security.MessageDigest;
 import java.security.NoSuchAlgorithmException;
 
 /**
- *
+ * Utility metódusok. 
  * @author ChatGPT
  */
 public class Model {
 
+    /**
+     * A megadott String hashkódjának előállítása.
+     * @param input
+     * @return 
+     */
     public static String generateHash(String input) {
         if (input == null) input = "";
         try {
